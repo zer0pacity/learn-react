@@ -5,7 +5,7 @@ import classNames from 'classnames/bind';
 
 const cx = classNames.bind(styles);
 
-function CheckBox({ children, checked, ...rest}) {
+function CheckBox({ children, checked, ...rest }) {
     return (
         <div className={cx('checkbox')}>
             <label>
